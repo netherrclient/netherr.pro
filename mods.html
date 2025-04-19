@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Netherr</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="nav-left">
+      <div class="logo-group">
+        <img src="assets/logo.png" alt="Netherr Logo" class="logo-small">
+        <a href="index.html" class="brand">Netherr</a>
+      </div>
+    </div>
+
+    <nav class="nav-center menu">
+      <a href="index.html" class="home-link" data-lang="it,en,de">Home</a>
+      <a href="download.html" data-lang="it,en,de">Download</a>
+      <a href="mods.html" data-lang="it,en,de">Mods</a>
+      <a href="shop.html" data-lang="it,en,de">Store</a>
+      <a href="account.html" data-lang="it,en,de">Account</a>
+    </nav>
+
+    <div class="nav-right">
+      <select id="lang-switcher">
+        <option value="it">IT</option>
+        <option value="en">EN</option>
+        <option value="de">DE</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main>
+
+
+
+
+
+<section class="hero-carousel">
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="heroCarousel">
+      <div class="slide">
+        <img src="assets/crossplaying.png" alt="Slide 1">
+        <div class="slide-caption">
+          <h2>CROSS-PLAYING MOD</h2>
+          <p>See Other MINECRAFT PLAYERS USE AND SEE THEIR EMOTES!</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="assets/motionblur.jpg" alt="Slide 2">
+        <div class="slide-caption">
+          <h2>COSTUM MOTION BLUR</h2>
+          <p>COSTUMIZE YOUR MONTION BLUR HOW YOU WANT!</p>
+        </div>z
+      </div>
+      <div class="slide">
+        <img src="assets/keyboard.jpg" alt="Slide 3">
+        <div class="slide-caption">
+          <h2>KEYBOARD MOD</h2>
+          <p>SEE WHAT YOU TOUCH WITH KEYBOARD MOD!</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-arrow left" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-arrow right" onclick="nextSlide()">&#10095;</button>
+  </div>
+</section>
+
+
+
+  <div class="features scroll-fade">
+
+        <h2 data-lang="it">E ALTRO!</h2>
+    <h2 data-lang="en" style="display:none">AND MORE!</h2>
+    <h2 data-lang="de" style="display:none">UND MEHR!</h2>
+
+    </div>
+
+
+
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
