@@ -1,0 +1,10 @@
+{
+  "latest": "netherr-1.20.1",
+  "versions": {
+    "netherr-1.20.1": {
+      "name": "Netherr Client 1.20.1",
+      "description": "Modpack con OptiFine, PvP HUD e ReplayMod",
+      "url": "https://netherr.pro/updates/netherr-1.20.1.zip"
+    }
+  }
+}
